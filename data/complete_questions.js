@@ -40,7 +40,7 @@ const completeQuestions = [
       "Aislarte cuando te sientes abrumado/a."
     ],
     correctAnswer: 1,
-    explanation: "Practicar técnicas de relajación como la respiración profunda es efectivo para reducir el estrés."
+    explanation: "Practicar técnicas   de relajación como la respiración profunda es efectivo para reducir el estrés."
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ const completeQuestions = [
       "Mejora del estado de ánimo."
     ],
     correctAnswer: 2,
-    explanation: "La falta de sueño afecta directamente la concentración y la memoria."
+    explanation: "Problemas para concentrarse y falta de memoria."
   },
   {
     id: 5,
@@ -66,7 +66,7 @@ const completeQuestions = [
       "Ser siempre positivo/a, sin importar qué pase."
     ],
     correctAnswer: 1,
-    explanation: "La resiliencia es la capacidad de adaptarse y recuperarse de las adversidades, saliendo fortalecido."
+    explanation: "Tener la capacidad de enfrentarse a situaciones difíciles, adaptarse con flexibilidad y salir fortalecido de ellas."
   },
   {
     id: 6,
@@ -79,7 +79,7 @@ const completeQuestions = [
       "Está bien pedir ayuda cuando la necesito."
     ],
     correctAnswer: 2,
-    explanation: "Las creencias limitantes como 'no soy lo suficientemente bueno/a' afectan negativamente la salud mental."
+    explanation: "No soy lo suficientemente bueno/a para lograr mis metas."
   },
 
   // MITOS DESMENTIDOS (IDs 7-12)
@@ -94,7 +94,7 @@ const completeQuestions = [
       "Hablar sobre tus sentimientos puede ayudarte a sentirte mejor."
     ],
     correctAnswer: 2,
-    explanation: "Es un mito que las personas con problemas de salud mental sean peligrosas. La mayoría no representa ningún riesgo."
+    explanation: "Las personas con problemas de salud mental son peligrosas."
   },
   {
     id: 8,
@@ -107,7 +107,7 @@ const completeQuestions = [
       "Evitar cualquier tipo de problema en la vida."
     ],
     correctAnswer: 1,
-    explanation: "La terapia psicológica ayuda a desarrollar herramientas para manejar mejor las emociones y el estrés."
+    explanation: "Aprender a manejar mejor las emociones y el estrés."
   },
   {
     id: 9,
@@ -120,7 +120,7 @@ const completeQuestions = [
       "No, los problemas de salud mental pueden darse en cualquier etapa de la vida."
     ],
     correctAnswer: 3,
-    explanation: "Los problemas de salud mental pueden afectar a personas de cualquier edad, incluyendo niños y adolescentes."
+    explanation: "No, los problemas de salud mental pueden darse en cualquier etapa de la vida."
   },
   {
     id: 10,
@@ -133,7 +133,7 @@ const completeQuestions = [
       "Se debe hablar solo con un/una profesional de la salud."
     ],
     correctAnswer: 1,
-    explanation: "Hablar abiertamente sobre el suicidio no planta la idea, sino que puede brindar alivio y ayuda."
+    explanation: "No, hablar abiertamente puede brindar alivio y permitir buscar ayuda."
   },
   {
     id: 11,
@@ -146,7 +146,7 @@ const completeQuestions = [
       "Ignorar el problema con la esperanza de que desaparezca solo."
     ],
     correctAnswer: 2,
-    explanation: "La opción más válida es contactar a profesionales de salud mental o líneas de ayuda especializadas."
+    explanation: "Contactar a un/una profesional de salud mental o línea de ayuda especializada."
   },
   {
     id: 12,
@@ -159,7 +159,7 @@ const completeQuestions = [
       "No son la única forma de tratamiento para la salud mental."
     ],
     correctAnswer: 1,
-    explanation: "Es incorrecto que los medicamentos psiquiátricos alteren la personalidad definitivamente."
+    explanation: "Alteran tu personalidad definitivamente."
   },
 
   // CURIOSAMENTE MENTAL (IDs 13-18)
@@ -174,7 +174,7 @@ const completeQuestions = [
       "Alrededor del 75%."
     ],
     correctAnswer: 2,
-    explanation: "Aproximadamente el 50% de la población mundial puede experimentar algún problema de salud mental en su vida."
+    explanation: "Alrededor del 50%."
   },
   {
     id: 14,
@@ -187,7 +187,7 @@ const completeQuestions = [
       "Siempre sabes dónde están las partes de tu cuerpo."
     ],
     correctAnswer: 1,
-    explanation: "El cerebro tiene un mapa corporal interno llamado propiocepción que nos permite saber la posición de nuestro cuerpo."
+    explanation: "Tu cerebro tiene un 'mapa' de tu cuerpo y siente su posición."
   },
   {
     id: 15,
@@ -200,7 +200,7 @@ const completeQuestions = [
       "Tu cerebro reacciona a las imágenes como si fueran una amenaza real."
     ],
     correctAnswer: 3,
-    explanation: "El cerebro procesa las imágenes de miedo como amenazas reales, activando respuestas emocionales automáticas."
+    explanation: "Tu cerebro reacciona a las imágenes como si fueran una amenaza real."
   },
   {
     id: 16,
@@ -213,8 +213,8 @@ const completeQuestions = [
       "La temperatura corporal baja y sientes escalofríos."
     ],
     correctAnswer: 0,
-    explanation: "La respuesta de lucha o huida acelera el ritmo cardíaco, la respiración y tensa los músculos para preparar el cuerpo."
-  },
+    explanation: "Aumenta el ritmo del corazón, la respiración se acelera y los músculos se tensan."
+    },
   {
     id: 17,
     categoryId: 3,
@@ -226,8 +226,8 @@ const completeQuestions = [
       "Tu cerebro reacciona a las imágenes como si fueran una amenaza real."
     ],
     correctAnswer: 3,
-    explanation: "El cerebro procesa las imágenes de miedo como amenazas reales, activando respuestas emocionales automáticas."
-  },
+    explanation: "Tu cerebro reacciona a las imágenes como si fueran una amenaza real."
+    },
   {
     id: 18,
     categoryId: 3,
@@ -239,7 +239,7 @@ const completeQuestions = [
       "La temperatura corporal baja y sientes escalofríos."
     ],
     correctAnswer: 0,
-    explanation: "La respuesta de lucha o huida acelera el ritmo cardíaco, la respiración y tensa los músculos para preparar el cuerpo."
+    explanation: "Aumenta el ritmo cardíaco, la respiración se acelera y los músculos se tensan."
   },
 
   // Q+VE (IDs 19-24)
@@ -254,7 +254,7 @@ const completeQuestions = [
       "Medardo Ángel Silva."
     ],
     correctAnswer: 0,
-    explanation: "Oswaldo Guayasamín fue un reconocido pintor y escultor quiteño."
+    explanation: "Oswaldo Guayasamín."
   },
   {
     id: 20,
@@ -267,7 +267,7 @@ const completeQuestions = [
       "Virgen de la Aurora."
     ],
     correctAnswer: 2,
-    explanation: "La Virgen del Panecillo es conocida como la Virgen de Legarda, en honor al escultor Bernardo de Legarda."
+    explanation: "Virgen de Legarda."
   },
   {
     id: 21,
@@ -280,7 +280,7 @@ const completeQuestions = [
       "La Tola."
     ],
     correctAnswer: 0,
-    explanation: "Las tradicionales quesadillas quiteñas se venden en el barrio de San Juan."
+    explanation: "San Juan."
   },
   {
     id: 22,
@@ -293,7 +293,7 @@ const completeQuestions = [
       "Saludemos el nombre bendito de la Patria en cantar soberano."
     ],
     correctAnswer: 1,
-    explanation: "El himno a Quito comienza con 'Nuestros pechos en férvido grito, te saludan ciudad inmortal'."
+    explanation: "Nuestros pechos en férvido grito, te saludan ciudad inmortal."
   },
   {
     id: 23,
@@ -306,7 +306,7 @@ const completeQuestions = [
       "Hasta la vuelta, Señor."
     ],
     correctAnswer: 3,
-    explanation: "El Padre Almeida es conocido por la frase 'Hasta la vuelta, Señor'."
+    explanation: "Hasta la vuelta, Señor."
   },
   {
     id: 24,
@@ -319,7 +319,7 @@ const completeQuestions = [
       "La Ciudad de los Volcanes."
     ],
     correctAnswer: 1,
-    explanation: "Quito es conocida como 'Luz de América'."
+    explanation: "Luz de América."
   },
 
   // CLAVE MENTAL (IDs 25-30)
@@ -334,7 +334,7 @@ const completeQuestions = [
       "Participar en actividades deportivas."
     ],
     correctAnswer: 2,
-    explanation: "Experimentar estrés prolongado es un factor de riesgo significativo para la salud mental."
+    explanation: "Experimentar estrés por mucho tiempo."
   },
   {
     id: 26,
@@ -347,7 +347,7 @@ const completeQuestions = [
       "Asegurando que siempre tengas a alguien que te diga qué hacer."
     ],
     correctAnswer: 0,
-    explanation: "Una red de apoyo sólida ayuda a afrontar mejor los momentos difíciles y proporciona recursos emocionales."
+    explanation: "Ayudándote a afrontar mejor los momentos difíciles."
   },
   {
     id: 27,
@@ -360,7 +360,7 @@ const completeQuestions = [
       "Aislarse para tener tiempo para pensar."
     ],
     correctAnswer: 2,
-    explanation: "La actividad física regular ha demostrado científicamente mejorar el estado de ánimo y reducir ansiedad y depresión."
+    explanation: "La actividad física regular."
   },
   {
     id: 28,
@@ -373,7 +373,7 @@ const completeQuestions = [
       "Todas las anteriores."
     ],
     correctAnswer: 3,
-    explanation: "Todos los factores mencionados pueden desencadenar problemas de salud mental."
+    explanation: "Todas las anteriores."
   },
   {
     id: 29,
@@ -386,7 +386,7 @@ const completeQuestions = [
       "Ninguna de las anteriores."
     ],
     correctAnswer: 0,
-    explanation: "La OMS incorporó recientemente la adicción a los videojuegos como trastorno en su clasificación de enfermedades."
+    explanation: "Videojuegos."
   },
   {
     id: 30,
@@ -399,7 +399,7 @@ const completeQuestions = [
       "Hace que las personas sean más inteligentes y seguras."
     ],
     correctAnswer: 1,
-    explanation: "El consumo problemático de alcohol aumenta significativamente el riesgo de accidentes, problemas de salud mental y adicción."
+    explanation: "Aumenta el riesgo de accidentes, problemas de salud mental y adicción."
   }
 ];
 
