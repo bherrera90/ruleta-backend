@@ -173,8 +173,8 @@ const completeQuestions = [
       "Alrededor del 50%.",
       "Alrededor del 75%."
     ],
-    correctAnswer: 1,
-    explanation: "Aproximadamente el 25% de la población mundial puede experimentar algún problema de salud mental en su vida."
+    correctAnswer: 2,
+    explanation: "Aproximadamente el 50% de la población mundial puede experimentar algún problema de salud mental en su vida."
   },
   {
     id: 14,
@@ -279,8 +279,8 @@ const completeQuestions = [
       "Turubamba.",
       "La Tola."
     ],
-    correctAnswer: 1,
-    explanation: "Las tradicionales quesadillas quiteñas se venden en el barrio de San Roque."
+    correctAnswer: 0,
+    explanation: "Las tradicionales quesadillas quiteñas se venden en el barrio de San Juan."
   },
   {
     id: 22,
